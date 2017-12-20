@@ -1,0 +1,144 @@
+html {
+  font-size: 50px; }
+
+a {
+  color: #333; }
+
+.m_header_con {
+  display: block;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  height: 1.8rem; }
+  .m_header_con .m_header_box {
+    display: flex; }
+  .m_header_con .m_user_avatar {
+    width: 1.31rem;
+    height: 1.79rem;
+    padding-left: .4rem;
+    padding-top: .44rem; }
+    .m_header_con .m_user_avatar img {
+      width: .9rem;
+      height: .9rem;
+      border-radius: 50%; }
+  .m_header_con .m_user_name {
+    color: #333;
+    line-height: .5rem;
+    padding-top: .4rem;
+    font-size: .36rem; }
+  .m_header_con .m_address_link {
+    display: block;
+    color: #333; }
+    .m_header_con .m_address_link .user_address {
+      color: #333;
+      margin-top: .06rem;
+      font-size: 0.24rem;
+      line-height: .4rem; }
+      .m_header_con .m_address_link .user_address i {
+        font-size: .13rem;
+        float: right; }
+
+.m_main_con {
+  background: #f6f6f6;
+  display: block;
+  width: 100%;
+  padding-bottom: 1.3rem;
+  overflow: hidden; }
+  .m_main_con .m_user_order {
+    width: 100%;
+    margin-top: .2rem;
+    background-color: #fff; }
+    .m_main_con .m_user_order .m_item_text {
+      border-bottom: 1px solid #e5e5e5;
+      height: 1rem;
+      background: url(../img/arrow_right.png) no-repeat;
+      background-size: .12rem;
+      background-position-x: 7rem;
+      background-position-y: 0.4rem;
+      overflow: hidden; }
+      .m_main_con .m_user_order .m_item_text .m_order_icon {
+        width: 1.2rem;
+        height: 1rem;
+        float: left; }
+        .m_main_con .m_user_order .m_item_text .m_order_icon img {
+          display: block;
+          width: .56rem;
+          height: .56rem;
+          margin: .23rem auto;
+          text-align: center;
+          border-radius: 50%; }
+      .m_main_con .m_user_order .m_item_text .m_order_tit {
+        float: left;
+        font-size: .32rem;
+        color: #333;
+        line-height: 1rem;
+        white-space: nowrap; }
+
+.m_order_head, .m_collection_head {
+  display: block; }
+
+.m_empty_div {
+  margin-top: .2rem; }
+
+.m_main_con .m_collection_tips {
+  margin-top: .2rem;
+  width: 100%;
+  background: #fff; }
+  .m_main_con .m_collection_tips .m_item_text {
+    height: 1.01rem;
+    background: url(../img/arrow_right.png) no-repeat;
+    background-size: .12rem;
+    background-position-x: 7rem;
+    background-position-y: 0.4rem;
+    overflow: hidden; }
+    .m_main_con .m_collection_tips .m_item_text .m_order_icon {
+      width: 1.2rem;
+      height: 1rem; }
+      .m_main_con .m_collection_tips .m_item_text .m_order_icon img {
+        display: block;
+        width: 0.56rem;
+        height: 0.56rem;
+        margin: .23rem auto;
+        text-align: center;
+        border-radius: 50%; }
+    .m_main_con .m_collection_tips .m_item_text .m_item_main {
+      border-bottom: 1px solid #e5e5e5 !important;
+      box-sizing: border-box;
+      width: 6.3rem;
+      height: 1rem;
+      line-height: 1rem;
+      font-size: .32rem;
+      color: #333;
+      white-space: nowrap; }
+      .m_main_con .m_collection_tips .m_item_text .m_item_main .m_order_tit {
+        height: 1rem; }
+      .m_main_con .m_collection_tips .m_item_text .m_item_main .m_cupon_num {
+        font-size: .24rem;
+        max-width: 3.5rem;
+        color: #999;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-right: 0.66rem; }
+
+.m_blank {
+  background: #f6f6f6;
+  width: 100%;
+  height: .2rem; }
+
+.out_content {
+  width: 100%;
+  margin-top: 0.3rem; }
+  .out_content .out_login {
+    display: block;
+    width: 6.6rem;
+    height: .8rem;
+    line-height: .8rem;
+    color: #fff;
+    background: #ff5777;
+    font-size: .3rem;
+    margin: 0 auto;
+    border-radius: 4px;
+    text-align: center; }
+
+/*# sourceMappingURL=mine.css.map */
